@@ -22,13 +22,13 @@ const SKILLS = [
     icon: FingerPrintIcon,
     title: "Mobile App Development",
     children:
-      " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices. From concept to deployment, I handle every stage of the development process.",
+      " I specialize in creating responsive and intuitive mobile apps that work seamlessly across iOS & Android devices using technologies like flutterflow and flutter. From concept to deployment, I handle every stage of the development process.",
   },
   {
     icon: SwatchIcon,
     title: "Technology Stack",
     children:
-      "I'm well-versed in the industry's most popular frontend technologies, including HTML5, CSS3, JavaScript, and frameworks like React and React Native.",
+      "I'm well-versed in the industry's most popular frontend technologies, including MERN stack, Django along with AWS,Cloudfare and No code tools like flutterflow ",
   },
   {
     icon: HashtagIcon,
@@ -38,10 +38,9 @@ const SKILLS = [
   },
   {
     icon: EyeIcon,
-    title: "User-Centric Design",
+    title: "AI",
     children:
-      "My development goes hand-in-hand with an eye for design. I create user interfaces that are not only functional but also aesthetically pleasing, providing a seamless and enjoyable user journey.",
-  },
+      "I am well versed with technologies like LLM and can code AI models using pytorch , tensorflow , langchain and huggingface. I can build chatbots for your need"  },
   {
     icon: DocumentTextIcon,
     title: "Testing and Quality Assurance",
@@ -54,13 +53,19 @@ export function Skills() {
   return (
     <section className="px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue-gray" className="mb-2 font-bold uppercase">
+        <Typography placeholder=""
+  onPointerEnterCapture={() => { }}
+  onPointerLeaveCapture={() => { }} color="blue-gray" className="mb-2 font-bold uppercase">
           my skills
         </Typography>
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        <Typography placeholder=""
+  onPointerEnterCapture={() => { }}
+  onPointerLeaveCapture={() => { }} variant="h1" color="blue-gray" className="mb-4">
           What I do
         </Typography>
-        <Typography
+        <Typography placeholder=""
+  onPointerEnterCapture={() => { }}
+  onPointerLeaveCapture={() => { }}
           variant="lead"
           className="mx-auto w-full !text-gray-500 lg:w-10/12"
         >

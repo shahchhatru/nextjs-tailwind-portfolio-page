@@ -8,8 +8,10 @@ import Skills from "./skills";
 import Projects from "./projects";
 import Resume from "./resume";
 import Testimonial from "./testimonial";
-import PopularClients from "./popular-clients";
+// import PopularClients from "./popular-clients";
 import ContactForm from "./contact-form";
+
+export const runtime = "edge";
 
 export default function Portfolio() {
   return (
@@ -21,7 +23,7 @@ export default function Portfolio() {
       <Projects />
       <Resume />
       <Testimonial />
-      <PopularClients />
+      {/* <PopularClients /> */}
       <ContactForm />
       <Footer />
     </>
